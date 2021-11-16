@@ -1,0 +1,171 @@
+:root {
+  --dark-bg-color: #1f2937;
+  --bright-blue-color: #3882f6;
+  --light-gray-color: #e5e7eb;
+  --lighter-gray-color: #f9faf8;
+  --color-white: #fff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-color: var(--dark-bg-color); */
+ 
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.btn {
+  color: var(--color-white);
+  border: none;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: var(--light-gray-color);
+}
+
+.header {
+  background-color: var(--dark-bg-color);
+}
+
+/* Navigation */
+.navbar__items {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar__item {
+  margin-right: 1rem;
+}
+
+.navbar__item:last-child {
+  margin: 0;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: var(--light-gray-color);
+  font-size: 1.125rem;
+}
+
+/* Hero Section */
+.hero {
+  margin-bottom: 2rem;
+  padding: 4rem 0;
+}
+
+.hero__content {
+  width: 450px;
+  margin-right: 2rem;
+}
+
+
+.hero__image-container {
+  flex: 1;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--lighter-gray-color);
+  margin-bottom: .5rem;
+}
+
+.hero__description {
+  font-size: 1.125rem;
+  color: var(--light-gray-color);
+  margin-bottom: 1rem;
+}
+
+.btn-sign-up {
+  background-color: var(--bright-blue-color);
+ 
+}
+
+.hero__image-container {
+  background-color: #909090;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Information Section */
+.information {
+  background-color: var(--color-white);
+  padding: 1rem 0 4rem 0;
+  text-align: center;
+}
+
+.information__title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: var(--dark-bg-color);
+  margin-bottom: 2rem;
+}
+
+.information__content {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+}
+
+.image-container {
+  border: 3px solid var(--bright-blue-color);
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto .5rem auto;
+}
+
+/* Quote Section */
+.quote {
+  background-color: var(--light-gray-color);
+  padding: 4rem 0;
+  color: var(--dark-bg-color);
+
+}
+
+.quote__content {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.quote__description {
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote__author {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: right;
+}
