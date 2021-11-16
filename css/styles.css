@@ -23,8 +23,6 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* background-color: var(--dark-bg-color); */
- 
 }
 
 .container {
@@ -35,11 +33,20 @@ body {
   padding: 1rem;
 }
 
+.container.header__wrapper {
+  align-items: center;
+}
+
 .btn {
   color: var(--color-white);
   border: none;
   padding: .5rem 1.5rem;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-sign-up {
+  background-color: var(--bright-blue-color);
 }
 
 .logo {
@@ -82,7 +89,6 @@ body {
   margin-right: 2rem;
 }
 
-
 .hero__image-container {
   flex: 1;
 }
@@ -98,11 +104,6 @@ body {
   font-size: 1.125rem;
   color: var(--light-gray-color);
   margin-bottom: 1rem;
-}
-
-.btn-sign-up {
-  background-color: var(--bright-blue-color);
- 
 }
 
 .hero__image-container {
@@ -150,7 +151,6 @@ body {
   background-color: var(--light-gray-color);
   padding: 4rem 0;
   color: var(--dark-bg-color);
-
 }
 
 .quote__content {
@@ -168,4 +168,34 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   text-align: right;
+}
+
+/* CTA Section */
+.cta {
+  margin: 4rem 0;
+  color: var(--color-white);
+}
+
+.container.cta__wrapper {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta__wrapper {
+  background-color: var(--bright-blue-color);
+  padding: 3rem 0;
+  border-radius: 5px;
+}
+
+.cta button {
+  border: 2px solid var(--color-white);
+  font-weight: bold;
+}
+
+/* Footer Section */
+.footer {
+  background-color: var(--dark-bg-color);
+  color: var(--color-white);
+  padding: 2rem 0;
+  text-align: center;
 }
