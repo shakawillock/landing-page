@@ -49,6 +49,10 @@ body {
   background-color: var(--bright-blue-color);
 }
 
+img {
+  width: 100%;
+}
+
 .logo {
   font-size: 1.5rem;
   color: var(--light-gray-color);
@@ -106,15 +110,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.hero__image-container {
-  background-color: #909090;
-  color: var(--color-white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
 /* Information Section */
 .information {
   background-color: var(--color-white);
@@ -132,19 +127,22 @@ body {
 .information__content {
   display: flex;
   justify-content: center;
+  column-gap: 20px;
+}
+
+.information__description {
+  margin-top: 1rem;
 }
 
 .box {
   width: 200px;
 }
 
-.image-container {
-  border: 3px solid var(--bright-blue-color);
+.image-container img {
   border-radius: 5px;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto .5rem auto;
 }
+
+
 
 /* Quote Section */
 .quote {
